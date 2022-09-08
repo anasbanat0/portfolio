@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+      <a href="#" class="logo">Portfolio</a>
+      <div class="toggle" onclick="toggleMenu()"></div>
+      <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#services" onclick="toggleMenu()">Services</a></li>
+        <li><a href="#work" onclick="toggleMenu()">Work</a></li>
+        <li><a href="#testimonial" onclick="toggleMenu()">Testimonial</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </ul>
+    </header>
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+      <div class="textBx">
+        <h2>
+          Hello, I'm<br />
+          <span>Anas A. Banat</span>
+        </h2>
+        <h3>I'm a Full Stack Web Developer.</h3>
+        <a href="#about" class="btn">About Me</a>
+      </div>
+    </section>
+
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about" id="about">
+      <div class="heading">
+        <p>Get to know me</p>
+        <h2>About Me</h2>
+      </div>
+      <div class="content">
+        <div class="w50">
+          <img src="images/aseel.jpg" alt="Aseel Banat" class="proPic" />
+        </div>
+        <div class="contentBx w50">
+          <h3>Who am i?</h3>
+          <h2>
+            I'm <strong>Anas A. Banat</strong>, a Visual UX/UI Designer and Web
+            Developer
+          </h2>
+          <p>
+            I enjoy taking classes so i can relate more of my students & help
+            them in Web Design & Developers. Was active developer & Support for
+            Live Hosting, SSL and also worked as developer/API integration using
+            paypal / payUmoney / ccAvenue / 2checkout integration.
+          </p>
+          <br />
+          <p>
+            I am a freelancer from palestine and i have been building noteworthy
+            UX/UI designs and websites for years, which comply with the latest
+            design trends. I help convert a vision and an idea into meaningful
+            and useful products. Having a sharp eye for product evolution helps
+            me prioritize tasks, iterate fast and deliver faster.
+          </p>
+          <div class="heading bottom">
+            <a href="images/resume.docx" target="_blank" class="btn round">
+              Download CV
+            </a>
+            <div class="bt">
+              <b>Name:</b> Anas A. Banat<br />
+              <b>Age:</b> 24
+            </div>
+            <div class="bt">
+              <b>Email:</b> anasba315@gmail.com<br />
+              <b>Location:</b> Palestine
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Creating Services Layout in HTML -->
+    <section class="services" id="services">
+      <div class="heading white">
+        <h2>Our Services</h2>
+        <p>Services I Offer to my Clients</p>
+      </div>
+      <div class="content">
+        <div class="servicesBx">
+          <i class="fab fa-css3 fa-4x"></i>
+          <h3>Web Design CSS</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="servicesBx">
+          <i class="fab fa-wordpress fa-4x"></i>
+          <h3>Wordpress Developer</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="servicesBx">
+          <i class="fab fa-drupal fa-4x"></i>
+          <h3>Drupal Developer</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="servicesBx">
+          <i class="fab fa-joomla fa-4x"></i>
+          <h3>Joomla Developer</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="servicesBx">
+          <i class="fab fa-android fa-4x"></i>
+          <h3>Android Developer</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="servicesBx">
+          <i class="fas fa-cart-arrow-down fa-4x"></i>
+          <h3>E-Commerce Project</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Creating Work Layout in HTML -->
+    <section class="work" id="work">
+      <div class="heading">
+        <h2>Our Latest work</h2>
+        <p>Showcasing some of my <b>new websites</b></p>
+      </div>
+      <div class="content">
+        <div class="workBx">
+          <a href="" target="_blank">
+            <img src="images/work1.jpg" alt="" />
+            <p>HTML 5 from Beginner to pro-code [7 days challange]</p>
+          </a>
+        </div>
+        <div class="workBx">
+          <a href="" target="_blank">
+            <img src="images/work2.jpg" alt="" />
+            <p>HTML 5 from Beginner to pro-code [7 days challange]</p>
+          </a>
+        </div>
+        <div class="workBx">
+          <a href="" target="_blank">
+            <img src="images/work3.jpg" alt="" />
+            <p>HTML 5 from Beginner to pro-code [7 days challange]</p>
+          </a>
+        </div>
+        <div class="workBx">
+          <a href="" target="_blank">
+            <img src="images/work4.jpg" alt="" />
+            <p>HTML 5 from Beginner to pro-code [7 days challange]</p>
+          </a>
+        </div>
+        <div class="workBx">
+          <a href="" target="_blank">
+            <img src="images/work5.jpg" alt="" />
+            <p>HTML 5 from Beginner to pro-code [7 days challange]</p>
+          </a>
+        </div>
+        <div class="workBx">
+          <a href="" target="_blank">
+            <img src="images/work6.jpg" alt="" />
+            <p>HTML 5 from Beginner to pro-code [7 days challange]</p>
+          </a>
+        </div>
+        <div class="heading">
+          <a class="btn" style="color: #fff" href="" target="_blank"
+            >View All Works</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Creating Testimonial Layout in HTML -->
+    <section class="testimonial" id="testimonial">
+      <div class="heading white">
+        <h2>Testimonial</h2>
+        <p>What my clients think about me</p>
+      </div>
+      <div class="content">
+        <div class="testimonialBx">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+            illo. Doloremque, fugiat molestiae. Vero adipisci placeat harum
+            totam perspiciatis magni ipsum expedita dolorem ad quidem hic,
+            mollitia blanditiis voluptatum delectus.
+          </p>
+          <h3>Anas Banat<br />Creative Designer</h3>
+        </div>
+        <div class="testimonialBx">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+            illo. Doloremque, fugiat molestiae. Vero adipisci placeat harum
+            totam perspiciatis magni ipsum expedita dolorem ad quidem hic,
+            mollitia blanditiis voluptatum delectus.
+          </p>
+          <h3>Anas Banat<br />Creative Designer</h3>
+        </div>
+      </div>
+    </section>
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+      <div class="heading white">
+        <p>Feel free to contact me anytimes</p>
+        <h2>Get in Touch</h2>
+      </div>
+      <div class="content">
+        <div class="contactInfo">
+          <h3>Contact Info</h3>
+          <p>
+            Always available for freelance work if the right project comes
+            along, Feel free to contact me!
+          </p>
+          <div class="contactInfoBx">
+            <div class="box">
+              <div class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="text">
+                <h3>Address</h3>
+                <address>
+                  555, Office Number<br />
+                  Gaza Strip <br />
+                  Palestine
+                </address>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="text">
+                <h3>Phone no.</h3>
+                <p>00972 59510 9753</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <div class="text">
+                <h3>Email Address</h3>
+                <p>anasba315@gmail.com</p>
+              </div>
+            </div>
+            <br />
+            <h3>Social Connect</h3>
+            <div class="boxSocial">
+              <div class="icon">
+                <a href="https://www.facebook.com/1437752823" target="_blank">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </div>
+              <div class="icon">
+                <a href="https://www.twitter.com/98aab" target="_blank">
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+              </div>
+              <div class="icon">
+                <a href="https://www.linkedin.com/in/anasali0" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
+              <div class="icon">
+                <a
+                  href="https://www.instagram.com/anasalibanat"
+                  target="_blank"
+                >
+                  <i class="fab fa-instagram-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="formBx">
+          <form>
+            <h3>Message Me</h3>
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Email" />
+            <textarea rows="6" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+      <p>&copy; 2022, Anas Banat, All Rigths Reserved</p>
+    </footer>
+    <script src="js/ext.js"></script>
+  </body>
+</html>
